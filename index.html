@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Periodic Strings</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="main" id="main">
+      <h1>Element Sum Checker</h1>
+      <h2>Enter string</h2>
+      <p>
+        This should help with the password game, not having to look at the
+        periodic table every time your pw changes
+      </p>
+      <input id="checkStr" oninput="handleChange()" />
+      <div id="strDisplay"></div>
+      <div id="numbers">
+        <div class="numberLine">
+          Total:
+          <div id="total"></div>
+        </div>
+        <div class="numberLine">
+          Remaining:
+          <div id="remaining"></div>
+        </div>
+        <div class="numberLine">
+          Suggested:
+          <div id="suggest"></div>
+        </div>
+      </div>
+      <div id="elementContainer"></div>
+    </div>
+  </body>
+</html>
